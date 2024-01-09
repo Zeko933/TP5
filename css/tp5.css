@@ -1,0 +1,52 @@
+header {
+	background-color: #000000;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("../img/dinosaure.jpg");
+	background-position: center;
+	background-size: cover;
+	color: #ffffff;
+	padding: 1em;
+	text-align: center;
+}
+li {
+	display: inline-block;
+}
+.menu li {
+	list-style-type: none;
+}
+.menu a {
+	display: block;
+	min-width: 120px;
+	margin: 0.5rem;
+	padding: 0.4rem 0;
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+	border: 1px solid grey;
+	border-radius: 4px;
+	transition: all 1s;
+}
+.menu a.actif {
+	background-color: grey;
+	color: grey;
+	border-color: grey;
+}
+.menu a:hover,
+.menu a:hover.actif {
+	color: grey;
+	border-color: grey;
+}
+#logo1 {
+	text-align: center;
+}
+#logo2 {
+	text-align: end;
+}
+h1 {
+	text-align: center;
+	font-size: 80px;
+}
+#entree {
+	text-align: center;
+}
+
